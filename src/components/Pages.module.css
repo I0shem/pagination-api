@@ -26,3 +26,34 @@ li {
   width: 300px;
   margin-bottom: 35px;
 }
+.paginationList {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.paginationListItem {
+  margin-left: 5px;
+}
+.paginationListItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.highlight {
+  font-weight: 500;
+  font-size: 115%;
+}
+
+.Arrow {
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  width: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
